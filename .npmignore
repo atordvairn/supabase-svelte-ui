@@ -1,0 +1,5 @@
+/node_modules/
+/scripts/
+gitpod.yml
+package-lock.json
+yarn.lock
