@@ -1,14 +1,14 @@
 <script>
-  import Alert from "./lib/Alert.svelte";
-  import Input from "./lib/Input.svelte";
-  import Badge from "./lib/Badge.svelte";
+  import Alert from "./Alert.svelte";
+  import Input from "./Input.svelte";
+  import Badge from "./Badge.svelte";
   import { UserIcon } from "svelte-feather-icons";
-  import Button from "./lib/Button.svelte";
-  import Checkbox from "./lib/Checkbox.svelte";
-  import SupabaseUi from "./lib/SupabaseUi.svelte";
-  import Typography from "./lib/Typography.svelte";
-  import Card from "./lib/Card.svelte";
-  import Text from "./lib/Text.svelte";
+  import Button from "./Button.svelte";
+  import Checkbox from "./Checkbox.svelte";
+  import SupabaseUi from "./SupabaseUi.svelte";
+  import Typography from "./Typography.svelte";
+  import Card from "./Card.svelte";
+  import Text from "./Text.svelte";
 
   let theme;
 </script>
