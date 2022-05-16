@@ -1,6 +1,6 @@
 {
   "name": "supabase-svelte-ui",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "svelte": "src/main.js",
   "type": "commonjs",
   "module": "dist/index.mjs",
