@@ -100,10 +100,10 @@ const name = pkg.name
 export default {
   input: "src/index.js",
   output: [
-    { file: "./dist/" + pkg.module, format: "es" },
-    { file: "./dist/" + pkg.main, format: "umd", name },
+    { file: pkg.module, format: "es" },
+    { file: pkg.main, format: "umd", name },
     {
-      file: "./dist/" + pkg.main.replace(".js", ".min.js"),
+      file: pkg.main.replace(".js", ".min.js"),
       format: "iife",
       name,
       plugins: [terser()],
